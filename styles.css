@@ -1,0 +1,117 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono',Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #6200ea;
+}
+
+button {
+  padding: 10px;
+  background-color: #6200ea;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+.hidden {
+  display: none;
+}
+
+.correct {
+  background-color: rgb(2, 146, 2);
+  color: white;
+}
+
+.incorrect {
+  background-color: rgb(187, 5, 5);
+  color: white;
+}
+
+.choice-option {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.choice-option:hover {
+  background-color: grey;
+}
+
+.full-score{
+  margin-top: 10px;
+  font-size: 2em;
+  text-shadow:0px 0px 10px lime;
+  color: lime;
+}
+
+.low-score{
+  margin-top: 10px;
+  font-size: 2em;
+  text-shadow:0px 0px 10px red;
+  color: red;
+}
+
+.notbad-score{
+  margin-top: 10px;
+  font-size: 2em;
+  text-shadow:0px 0px 10px orange;
+  color: orange;
+}
+
+.good-score{
+  margin-top: 10px;
+  font-size: 2em;
+  text-shadow:0px 0px 10px #00eeff;
+  color: #00eeff;
+}
